@@ -1,0 +1,32 @@
+[
+    {
+        "params": {
+            "lr": 0.0001,
+            "model_name": "newUNet",
+            "num_filters": 64,
+            "num_depth": 5,
+            "activation_fn": "relu",
+            "loss_fn": "focal",
+            "batch_size": 16,
+            "num_workers": 5,
+            "optimizer_name": "adam"
+        },
+        "f1_score": 0.8006143257731483,
+        "run_time": 5609.810431718826
+    },
+    {
+        "params": {
+            "lr": 0.0001,
+            "model_name": "baselineUNet",
+            "num_filters": 64,
+            "num_depth": 5,
+            "activation_fn": "relu",
+            "loss_fn": "focal",
+            "batch_size": 16,
+            "num_workers": 5,
+            "optimizer_name": "adam"
+        },
+        "f1_score": 0.7922186737968808,
+        "run_time": 5329.949378728867
+    }
+]
